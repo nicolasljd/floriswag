@@ -1,0 +1,30 @@
+html,body {
+    height:100%;
+}
+.bigbanner {
+    background-image: url("https://cdn.pixabay.com/photo/2017/07/28/20/58/freesias-2549781_1280.jpg");
+    height: 570px;
+    background-size: cover;
+    background-position: center center;
+    text-align: left;
+    padding: 150px 15%;
+}
+.textbigbanner {
+    font-size: 10vw;
+}
+
+.communitybutton {
+    font-size: 2vw;
+}
+
+@media(min-width:700px) {
+    .textbigbanner {
+        font-size: 70px;
+    }
+}
+
+@media(min-width:700px) {
+    .communitybutton {
+        font-size: 14px;
+    }
+}
