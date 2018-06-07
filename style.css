@@ -28,3 +28,19 @@ html,body {
         font-size: 14px;
     }
 }
+
+.bandeau1 {
+background-color: #FFFFFF;
+}
+
+.bandeau2 {
+background-color:#DCDCDC;
+}
+
+.bandeau3 {
+background-color:#66CDAA;
+}
+
+.footer {
+    background-color: #3CB371;
+}
