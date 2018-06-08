@@ -51,3 +51,10 @@ color:#FFFFFF;
     background-color:#1BA169;
     color:#FFFFFF;
 }
+
+.rejoignez {
+    width: 100%;
+    padding: 24px 0;
+    background-color: rgba(249, 249, 249, 0.7);
+    text-align: center;
+}
