@@ -158,6 +158,6 @@ h3.story-section {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.elisonicolas {
-    vertical-align: middle;
+.navbar1 {
+    display: initial;
 }
