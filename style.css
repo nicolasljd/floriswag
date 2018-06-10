@@ -115,3 +115,20 @@ h3.story-section {
     margin-top: 24px;
     margin-bottom: 16px;
 }
+
+.line-dots {
+    position: absolute;
+    background-position: right;
+    background-size: 2px 10px;
+    background-repeat: repeat-y;
+    width: 2px;
+    position: absolute;
+    left: 50%;
+    top: 120px;
+}
+
+.flowers {
+    background-image: url(mettre image fleurs);
+    background-position: center bottom -64px;
+    background-size: cover;
+}
