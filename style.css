@@ -132,3 +132,24 @@ h3.story-section {
     background-position: center bottom -64px;
     background-size: cover;
 }
+
+.btn-outline-success {
+    color: #1FB777;
+    background-color: white;
+    background-image: none;
+    border-color: white;
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: rgb(76, 212, 156);
+    background-clip: padding-box;
+    border: none;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
