@@ -165,3 +165,14 @@ h3.story-section {
 .mail {
     color: #fff;
 }
+
+.story-content {
+    margin-bottom: 56px;
+}
+
+.bullet {
+    background-image: url(https://agricool.co/wp-content/themes/agricool/assets/images/Bullet.png);
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    z-index: 9;
+}
