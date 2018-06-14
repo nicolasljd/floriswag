@@ -165,3 +165,30 @@ h3.story-section {
 .mail {
     color: #fff;
 }
+
+.faq {
+    text-align: center;
+}
+
+.faqmail {
+    color: #1FB777;
+}
+
+.faqcard1 {
+    background-color: #F7F7F7;
+    color: black;
+    border-color: #F7F7F7;
+}
+
+.faqcards {
+    background-color: #FFFFFF;
+    border-color: #FFFFFF;
+}
+
+.faqbuttons {
+    color: black;
+}
+
+.faqlinks {
+    color: grey;
+}
