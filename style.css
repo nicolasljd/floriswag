@@ -11,27 +11,30 @@ html,body {
     text-align: left;
     padding: 150px 15%;
 }
+
+.bigbannerteam {
+    background-image: url(équipe.jpg);
+    height: 570px;
+    background-size: cover;
+    background-position: center center;
+    padding: 150px 15%;
+}
+
 .textbigbanner {
-    font-size: 10vw;
+    font-size: 60px;
     color: #FFFFFF;
 }
 
+.textbigbanner2 {
+    font-size: 60px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
 .communitybutton {
-    font-size: 2vw;
+    font-size: 14px;
     background-color: #1FB777;
     border-color: #1FB777;
-}
-
-@media(min-width:700px) {
-    .textbigbanner {
-        font-size: 70px;
-    }
-}
-
-@media(min-width:700px) {
-    .communitybutton {
-        font-size: 14px;
-    }
 }
 
 div.div1 {
@@ -164,6 +167,41 @@ h3.story-section {
 
 .mail {
     color: #fff;
+}
+
+.montagne-ampoule {
+    height: 100px;
+    margin: 0 auto;
+    margin-bottom: 24px;
+    align-content: center;
+}
+
+.team-statement {
+    margin-top: 86px;
+    padding: 0 12px;
+}
+
+.text1 {
+    font-weight: 400;
+    text-align: center;
+    color: #37383C;
+    font-size: 22px;
+    line-height: 28px;
+}
+
+.text2 {
+    text-align: center;
+    color: #747579;
+}
+
+.team-title {
+    color: #37383C;
+    font-size: 28px;
+    line-height: 32px;
+    font-weight: 600;
+    margin-bottom: 72px;
+    margin-top: 72px;
+    text-align: center;
 }
 
 .faq {
