@@ -94,12 +94,6 @@ span.story1 {
     margin-top: 24px;
 }
 
-.img-responsive {
-    position: relative;
-    overflow: hidden;
-    display: block;
-}
-
 .story-line__chrono {
     position: absolute;
     top: 16px;
@@ -237,3 +231,4 @@ h3.story-section {
     background-position: center 25%;
     z-index: 10;
 }
+
