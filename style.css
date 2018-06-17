@@ -230,3 +230,10 @@ h3.story-section {
 .faqlinks {
     color: grey;
 }
+
+.bullet {
+    background-image: url(https://agricool.co/wp-content/themes/agricool/assets/images/Bullet.png);
+    background-repeat: no-repeat;
+    background-position: center 25%;
+    z-index: 10;
+}
