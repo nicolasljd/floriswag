@@ -281,3 +281,45 @@ h3.story-section {
     margin-bottom: 40px;
     font-weight: 300;
 }
+
+.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    border: 1px solid transparent;
+    display: block;
+    width: 100%;
+    border-radius: 4px;
+    padding: 16px;
+    color: #37383C;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 300;
+    background-color: rgba(55, 56, 60, 0.05);
+    margin-bottom: 16px;
+    height: auto;
+}
+
+.modal-header {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 1rem;
+    border-bottom: 1px solid white;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.modal-footer {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 1rem;
+    border-top: 1px solid white;
+}
+
