@@ -29,7 +29,7 @@ html,body {
     font-size: 60px;
     color: #FFFFFF;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .communitybutton {
@@ -166,7 +166,7 @@ h3.story-section {
     align-items: center;
     -ms-flex-pack: justify;
     justify-content: space-between;
-    padding: 30px 80px;
+    padding: 30px 30px;
 }
 
 .navbar1 {
