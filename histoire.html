@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-  <head>
+    <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <link rel="stylesheet" href="./style.css">
 
         <title>Histoire - Floriswag</title>
-  </head>
+    </head>
 
-  <body>
+    <body>
         <header>
-            <nav class="navbar navbar-expand-md navbar-light bg flex-nowrap fixed-top">
+            <nav class="navbar navbar-expand-md navbar-light bg fixed-top">
                 <button class="navbar-toggler mr-2" type="button" data-toggle="collapse" data-target="#navbar5">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <a class="navbar-brand w-100" href="home.html"><img src="floriswag-logo.png" style="width:180px"></a>
+                <a class="navbar-brand logo" href="home.html"><img src="floriswag-logo.png" style="width:180px"></a>
                 <div class="navbar-collapse collapse justify-content-center" id="navbar5">
                     <ul class="navbar-nav mx-auto">
                         <li class="nav-item">
@@ -57,7 +57,7 @@
                 <div class="card div1" style="width:100%">
                     <div class="card-body">
                             <p class="card-text" style="text-align: justify">Tous les deux enfants de fleuristes, on a confectionné pendant toute notre enfance des bouquets magnifiques. Alors quand on a posé nos valises en ville, il n’était pas question de laisser ce plaisir de côté. Aujourd’hui, on invente un système permettant de rendre accessible à tous les plus belles fleurs et sans pesticide.</p>
-                            <span class="story1"><strong>Eliso & Nicolas</strong></span>
+                            <span class="story1"><strong>Elisa & Nicolas</strong></span>
                     </div>
                 </div>
                 <br>
@@ -398,7 +398,7 @@
 
     <div>
         <nav class="navbar1 navbar-expand-sm navbar-light flex-nowrap fixed-bottom rejoignez">
-            <button type="button" class="btn btn-primary btn-lg communitybutton">REJOIGNEZ LA COMMUNAUTÉ</button>
+            <button type="button" class="btn btn-primary btn-lg communitybutton" data-toggle="modal" data-target="#exampleModal">REJOIGNEZ LA COMMUNAUTÉ</button>
             <div class="w-100"><!--spacer--></div>
         </nav>
     </div>
@@ -411,12 +411,14 @@
             <br>
             <h4><strong>Newsletter</strong></h4>  
             <br>
-            <nav class="navbar navbar-light bandeau3">
-                <form class="form-inline">
-                  <input class="form-control mr-sm-2" type="e-mail" placeholder="Adresse e-mail" aria-label="e-mail">
-                  <button class="btn btn-outline-success my-2 my-sm-0" type="submit">GO !</button>
+            <div>
+                <form>
+                    <div>
+                        <input type="email" value="" name="EMAIL" class="newsletter" placeholder="Adresse e-mail" required="">
+                        <input class="btn btn-secondary" type="button" value="GO !">
+                    </div>
                 </form>
-            </nav>
+            </div>
             <br>
         </div> 
         <div class="col-12 col-md-4 bandeau3"> 
@@ -426,7 +428,7 @@
             <br>  
             <a href="histoire.html" class="mail">Histoire</a><br>
             <a href="fleurs.html" class="mail">Fleurs</a><br>
-            <a>Jardins</a><br>
+            <a href="jardins.html" class="mail">Jardins</a><br>
             <a href="equipe.html" class="mail">Equipe</a><br>
             <a href="FAQ.html" class="mail">FAQ</a>
             <br>
@@ -450,6 +452,37 @@
         <br>
         </div>
     </footer>
+
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="order-form-title">Wahou !</div>  
+                    <div class="order-form-p"><p>Génial ! Vous aussi vous croyez qu’il est possible d’inventer dès aujourd’hui les bouquets de demain ? Rejoignez notre communauté. Inscrivez-vous à notre newsletter.</p>
+                    </div>              
+                    <form>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Prénom">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="e-mail">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Ville">
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary btn-lg communitybutton">VALIDER</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
