@@ -1,0 +1,22 @@
+{
+  "name": "floriswag",
+  "version": "1.0.0",
+  "description": "",
+  "main": "serveur.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nicolasljd/floriswag.git"
+  },
+  "author": "elisa",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nicolasljd/floriswag/issues"
+  },
+  "homepage": "https://github.com/nicolasljd/floriswag#readme",
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
